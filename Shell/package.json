@@ -1,0 +1,11 @@
+{
+  "name": "win12_shell",
+  "version": "1.0.0",
+  "description": "Windows 12 Shell",
+  "main": "index.js",
+  "scripts": {
+    "test": "electron ."
+  },
+  "author": "Paolog",
+  "license": "ISC"
+}
