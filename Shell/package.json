@@ -7,5 +7,8 @@
     "test": "electron ."
   },
   "author": "Paolog",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^26.2.0"
+  }
 }
