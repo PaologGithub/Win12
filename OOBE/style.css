@@ -1,0 +1,19 @@
+body {
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+}
+.video {
+    position:absolute;
+    top:18%;
+    bottom:18%
+}
+.main {
+    background-color: rgba(255, 255, 255, 0.5);
+    position: absolute;
+    top:15%;
+    bottom:15%;
+    left:20%;
+    right:20%;
+    border-radius:50px;
+}

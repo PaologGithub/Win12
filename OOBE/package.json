@@ -1,0 +1,11 @@
+{
+  "name": "win12_oobe",
+  "version": "1.0.0",
+  "description": "Windows 12 Out Of Box Experience",
+  "main": "index.js",
+  "scripts": {
+    "test": "electron ."
+  },
+  "author": "Paolog",
+  "license": "ISC"
+}
