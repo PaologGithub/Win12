@@ -1,0 +1,71 @@
+.main {
+    bottom:0%;
+    left:0%;
+    right:0%;
+}
+.main .op {
+    border:none;
+    border-radius:0px;
+    line-height: 40px;
+    font-size: 18px;
+    font-family: sans-serif;
+    text-decoration: none;
+    color: #333;
+    letter-spacing: 2px;
+    text-align: center;
+    position: relative;
+    transition: all .35s;
+}
+.main .op:after {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background-color: #ff003b;
+    transition: all .35s;
+}
+.main .op:hover {
+    color: #fff;
+}
+ .main .op:hover::after {
+    width: 100%; 
+} 
+
+.main .plus {
+    position:absolute;
+    right:0%;
+    left:75%;
+    bottom:60%;
+    top:25%;
+}
+.main .minus {
+    position:absolute;
+    right:0%;
+    left:75%;
+    bottom:45%;
+    top:40%;
+}
+.main .x {
+    position: absolute;
+    right:0%;
+    left:75%;
+    bottom: 30%;
+    top:55%;
+}
+.main .divide {
+    position:absolute;
+    right:0%;
+    left:75%;
+    bottom:15%;
+    top:70%;
+}
+.main .equal {
+    position:absolute;
+    right:0%;
+    left:75%;
+    bottom:0%;
+    top:85%;
+    /*25% pour value, 75 pour button*/
+}

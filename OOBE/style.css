@@ -25,3 +25,18 @@ body {
     flex-direction: column;
     display: flex;
 }
+.next {
+    background-color: rgb(0, 162, 237);
+    position:absolute;
+    bottom: 5%;
+    top: 90%;
+    left: 85%;
+    right:5%;
+    border: none;
+    border-radius: 50px;
+    color: lightgray;
+    transition: background-color 500ms;
+}
+.next:hover {
+    background-color: rgb(73, 151, 208);
+}

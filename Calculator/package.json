@@ -1,0 +1,16 @@
+{
+  "name": "win12_calculator",
+  "version": "1.0.0",
+  "description": "Windows 12 Calculator",
+  "main": "index.js",
+  "scripts": {
+    "test": "electron ."
+  },
+  "author": "Paolog",
+  "license": "ISC",
+  "dependencies": {
+    "@electron/remote": "^2.0.11",
+    "electron": "^26.2.4",
+    "electron-root-path": "^1.1.0"
+  }
+}

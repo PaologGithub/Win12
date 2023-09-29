@@ -4,11 +4,17 @@
   "description": "Windows 12 Shell",
   "main": "index.js",
   "scripts": {
-    "test": "electron ."
+    "test": "electron .",
+    "start": "electron ."
   },
   "author": "Paolog",
   "license": "ISC",
   "devDependencies": {
-    "electron": "^26.2.0"
+    "electron": "^26.2.0",
+    "electron-reloader": "^1.2.3"
+  },
+  "dependencies": {
+    "@electron/remote": "^2.0.11",
+    "@fluentui/web-components": "^2.5.16"
   }
 }

@@ -1,0 +1,164 @@
+.main {
+    position:absolute;
+    top:48px;
+}
+.titlebar {
+    -webkit-app-region: drag;
+    background: lightgray;
+    position:absolute;
+    left: 0%;
+    top: 0%;
+    height: 48px;
+    width: 100%;
+    flex-direction:row;
+    display: flex;
+}
+.titlebar .closebtn {
+    -webkit-app-region: no-drag;
+    position:absolute;
+    border-radius: 0px;
+    border: none;
+    background: red;
+    top: 0px;
+    right: 0px;
+    width: 48px;
+    height: 48px;
+    transition: 500ms;
+    background-image: url(res/close.png);
+}
+.titlebar .closebtn:hover {
+    background: darkred;
+    background-image: url(res/close.png);
+    cursor: pointer;
+}
+
+.titlebar .closefls {
+    -webkit-app-region: no-drag;
+    position:absolute;
+    border-radius: 0px;
+    border: none;
+    background: lightgray;
+    top: 0px;
+    right: 144px;
+    width: 48px;
+    height: 48px;
+    transition: 500ms;
+    background-image: url(res/close_fullscreen.png);
+}
+.titlebar .closefls:hover {
+    background: gray;
+    background-image: url(res/close_fullscreen.png);
+    cursor: pointer;
+}
+
+.titlebar .closefls:disabled {
+    background-color: darkgray;
+    background-image: url(res/close_fullscreen.png);
+    cursor:default;
+}
+
+.titlebar .flsbtn {
+    -webkit-app-region: no-drag;
+    position:absolute;
+    border-radius: 0px;
+    border: none;
+    background: lightgray;
+    top: 0px;
+    right: 144px;
+    width: 48px;
+    height: 48px;
+    transition: 500ms;
+    background-image: url(res/fullscreen.png);
+}
+.titlebar .flsbtn:hover {
+    background: gray;
+    background-image: url(res/fullscreen.png);
+    cursor: pointer;
+}
+.titlebar .flsbtn:disabled {
+    background-color: darkgray;
+    background-image: url(res/fullscreen.png);
+    cursor:default;
+}
+
+.titlebar .totskbtn {
+    -webkit-app-region: no-drag;
+    position:absolute;
+    border-radius: 0px;
+    border: none;
+    background: lightgray;
+    top: 0px;
+    right: 96px;
+    width: 48px;
+    height: 48px;
+    transition: 500ms;
+    background-image: url(res/to_taskbar.png);
+}
+.titlebar .totskbtn:hover {
+    background: gray;
+    background-image: url(res/to_taskbar.png);
+    cursor: pointer;
+}
+
+.titlebar .tomaxbtn {
+    -webkit-app-region: no-drag;
+    position:absolute;
+    border-radius: 0px;
+    border: none;
+    background: lightgray;
+    top: 0px;
+    right: 48px;
+    width: 48px;
+    height: 48px;
+    transition: 500ms;
+    background-image: url(res/to_maximized.png);
+}
+.titlebar .tomaxbtn:hover {
+    background: gray;
+    background-image: url(res/to_maximized.png);
+    cursor: pointer;
+}
+.titlebar .tomaxbtn:disabled {
+    background-color: darkgray;
+    background-image: url(res/to_maximized.png);
+    cursor:default;
+}
+
+.titlebar .tominbtn {
+    -webkit-app-region: no-drag;
+    position:absolute;
+    border-radius: 0px;
+    border: none;
+    background: lightgray;
+    top: 0px;
+    right: 48px;
+    width: 48px;
+    height: 48px;
+    transition: 500ms;
+    background-image: url(res/to_minimized.png);
+}
+.titlebar .tominbtn:hover {
+    background: gray;
+    background-image: url(res/to_minimized.png);
+    cursor: pointer;
+}
+.titlebar .tominbtn:disabled {
+    background-color: darkgray;
+    cursor:default;
+    background-image: url(res/to_minimized.png)
+}
+.titlebar .titlet {
+    position: absolute;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    top:-5px;
+    left: 10px;
+}
+
+/*.main button {
+    border: none;
+    background: rgba(0,0,0,0.25);
+    box-shadow: 0 2px 6px rgba(0,0,0,0.5), inset 0 1px rgba(255,255,255,0.3), inset 0 10px rgba(255,255,255,0.2), inset 0 10px 20px rgba(255,255,255,0.25), inset 0 -15px 30px rgba(0,0,0,0.3);
+    -o-box-shadow: 0 2px 6px rgba(0,0,0,0.5), inset 0 1px rgba(255,255,255,0.3), inset 0 10px rgba(255,255,255,0.2), inset 0 10px 20px rgba(255,255,255,0.25), inset 0 -15px 30px rgba(0,0,0,0.3);
+    -webkit-box-shadow: 0 2px 6px rgba(0,0,0,0.5), inset 0 1px rgba(255,255,255,0.3), inset 0 10px rgba(255,255,255,0.2), inset 0 10px 20px rgba(255,255,255,0.25), inset 0 -15px 30px rgba(0,0,0,0.3);
+    -moz-box-shadow: 0 2px 6px rgba(0,0,0,0.5), inset 0 1px rgba(255,255,255,0.3), inset 0 10px rgba(255,255,255,0.2), inset 0 10px 20px rgba(255,255,255,0.25), inset 0 -15px 30px rgba(0,0,0,0.3);
+}*/
